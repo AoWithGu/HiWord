@@ -1,0 +1,25 @@
+server:
+  port: 80
+spring:
+  application:
+    name: sentinel-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          lower-case-service-id: true
+      routes:
+        - id: clientB-provider-id
+          uri: http://127.0.0.1:8082
+          predicates:
+            - Path=/pay/**
+    sentinel:
+      transport:
+        dashboard: 127.0.0.1:8080
+        port: 8719
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        username: nacos
+        password: nacos
+

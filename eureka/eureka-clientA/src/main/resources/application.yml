@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: eureka-client-A
+server:
+  port: 8080
+#将eureka-client注册到eureka-server服务端
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+    register-with-eureka: true  #表示是否注册到服务器端
+    fetch-registry: true    #表示是否拉取服务器端的服务列表
+    registry-fetch-interval-seconds: 30  #多久去拉取一次服务列表
+  instance:
+    hostname: m1
+    instance-id: ${eureka.instance.hostname}:${spring.application.name}:${server.port}
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 30 #客户端多久向服务端发送一次心跳
+    leaseExpirationDurationInSeconds: 90

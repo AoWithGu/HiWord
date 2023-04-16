@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka/eureka-clientA/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka/eureka-clientB/pom.xml" />
+        <option value="$PROJECT_DIR$/lb/pom.xml" />
+        <option value="$PROJECT_DIR$/lb/user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/lb/order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/open-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/open-feign/consumer-user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/open-feign/provider-order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway/search-service/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway/user2-service/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway/gateway-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/springclound-alibaba/pom.xml" />
+        <option value="$PROJECT_DIR$/springclound-alibaba/nacos/pom.xml" />
+        <option value="$PROJECT_DIR$/springclound-alibaba/nacos/alibaba-nacos-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/springclound-alibaba/nacos/alibaba-nacos-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/springclound-alibaba/sentinel/pom.xml" />
+        <option value="$PROJECT_DIR$/springclound-alibaba/sentinel/sentinel-clientA/pom.xml" />
+        <option value="$PROJECT_DIR$/springclound-alibaba/sentinel/sentinel-clientB-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/springclound-alibaba/sentinel/sentinel-gateway/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

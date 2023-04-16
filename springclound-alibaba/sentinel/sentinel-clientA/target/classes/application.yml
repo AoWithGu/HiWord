@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: sentinel-clientA
+  cloud:
+    sentinel:
+      enabled: true
+      transport:
+        port: 8719
+        dashboard: 127.0.0.1:8080
+      web-context-unify: false
